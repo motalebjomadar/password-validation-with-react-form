@@ -2,7 +2,7 @@ import { useState } from "react";
 
 
 const PwdValidation = () => {
-    const [name, setName] = useState(null);
+    const [name, setName] = useState('Mahmud Ali');
     const [email, setEmail] = useState(null);
     const [password, setPassword] = useState(null);
     const [error, setError] = useState();
@@ -31,7 +31,7 @@ const PwdValidation = () => {
     return (
         <div>
             <form onSubmit={handleSubmit}>
-                <input onChange={handleNameChange} type="text" name="name" required/>
+                <input onChange={handleNameChange} type="text" name="name" value={name} required/>
                 <br/><br/>
                 <input onChange={handleEmailChange} type="text" name="email" required/>
                 <br/><br/>
