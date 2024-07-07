@@ -1,6 +1,7 @@
 
 import './App.css'
-import PwdValidation from './components/PwdValidation'
+// import PwdValidation from './components/PwdValidation'
+import RefForm from './components/RefForm'
 
 function App() {
 
@@ -8,7 +9,8 @@ function App() {
     <>
       
       <h1>Vite + React</h1>
-      <PwdValidation></PwdValidation>
+      {/* <PwdValidation></PwdValidation> */}
+      <RefForm></RefForm>
       
     </>
   )
