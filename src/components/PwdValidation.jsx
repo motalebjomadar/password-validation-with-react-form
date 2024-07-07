@@ -2,7 +2,7 @@ import { useState } from "react";
 
 
 const PwdValidation = () => {
-    const [name, setName] = useState('Mahmud');
+    const [name, setName] = useState('motaleb jomadar');
     const [email, setEmail] = useState(null);
     const [password, setPassword] = useState(null);
     const [error, setError] = useState();
